@@ -15,7 +15,7 @@ test('get started link', async ({ page }) => {
 });
 
 test('TC3', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  await page.goto('https://playwright.dev/conflict1');
 });
 
 test('TC4', async ({ page }) => {
