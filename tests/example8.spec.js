@@ -21,3 +21,7 @@ test('TC3', async ({ page }) => {
 test('TC4', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 });
+
+test('TC4', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+});
